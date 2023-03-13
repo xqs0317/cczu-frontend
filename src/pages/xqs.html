@@ -1,0 +1,18 @@
+<html>
+<meta charset="UTF-8">
+<h1>嘿嘿和</h1>
+<button id="btn1" type="button" onclick="m1()" onmousemove="m2()">点我试试?</button>
+<script>
+    function m1() {
+        alert("皮皮猫")
+    }
+
+    function m2() {
+        alert("曦鼠")
+    }
+
+    //js主动触发事件
+    document.getElementById("btn1").dispatchEvent(new Event('mousemove'))
+    document.getElementById("btn1").dispatchEvent(new Event('click'))
+</script>
+</html>
