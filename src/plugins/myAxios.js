@@ -2,7 +2,7 @@ import axios from "axios";
 //自定义axios
 const myAxios = axios.create({
     //每次发请求axios会拼接baseURL
-    baseURL: 'http://localhost:8080/api',
+    baseURL: 'http://101.43.95.213:8080/api',
     //发请求时可以携带headers
     headers: {'X-Custom-Header': 'foobar'},
     //跨域时携带请求cookie
